@@ -16,6 +16,7 @@ wireless transmission.
 3. turtlebot_teleop package
 
 ## Install rosserial package
+```
 sudo apt-get install ros-indigo-rosserial  
 
 cd catkin_ws/src  
@@ -25,8 +26,10 @@ git clone https://github.com/ros-drivers/rosserial.git
 cd catkin_ws  
 
 catkin_make
+```
 
 ## Install turtlebot_teleop package
+```
 sudo apt-get install ros-indigo-turtlebot-teleop  
 
 roscd turtlebot_teleop  
@@ -40,6 +43,7 @@ sudo chmod 777 keyboard_teleop.launch
 gedit keyboard_teleop.launch  
 
 remap from="turtlebot_teleop_keyboard/cmd_vel" to="cmd_vel"
+```
 
 ## Run the total project
 1. Insert the USB device of STM into PC  
